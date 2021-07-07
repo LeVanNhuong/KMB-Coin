@@ -1,0 +1,23 @@
+﻿{ 
+  "profiles": { 
+    "KMB_Coin": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "ping",
+      "applicationUrl": "http://localhost:3000",
+      "environmentVariables": {
+        "APP_NANE": "KMB_Coin",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "REDIS_SERVER": "127.0.0.1",
+        "REDIS_PORT": "6379",
+        "REDIS_PASSWORD": "123456",
+        "REDIS_TIMEOUT_IN_MILLISEC": "300000",
+        "REDIS_CONNECT_RETRY_LIMIT": "5",
+        "REDIS_ABORT_ON_CONNECT_FAIL": "false",
+        "HTTP_PORT": "3000",
+        "MINE_RATE_IN_MILLISEC": "5000"
+
+      }
+    }
+  }
+}
